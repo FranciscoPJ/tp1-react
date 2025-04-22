@@ -1,0 +1,31 @@
+.fila {
+  display: flex;
+  align-items: center; 
+  gap: 1rem;          
+  flex-wrap: wrap;     
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.buttonAgregar {
+  background-color: #2d73db !important;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+  min-width: 120px;
+}
+
+
+.formWrapper {
+  padding: 1rem;
+  background-color: #1e1e2f;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  flex: 1;
+  justify-content: center;
+}
